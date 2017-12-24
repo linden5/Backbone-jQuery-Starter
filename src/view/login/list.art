@@ -1,0 +1,7 @@
+{{each list prod index}}
+    <p>
+        <span>{{prod.itemid}}</span>
+        <span>{{prod.productid}}</span>
+        <span>{{prod.unitcost}}</span>
+    </p>
+{{/each}}
